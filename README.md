@@ -40,4 +40,5 @@ Providing a clear and simple user interface via the command line ensures the pro
 ## Summary
 This basic calculator project serves as an excellent introduction to fundamental programming concepts in Python. By working on this project, one can gain hands-on experience with functions, user input handling, error management, and control structures, laying a solid foundation for more complex programming tasks.
 
+**OUTPUT:-**
 ![image](https://github.com/user-attachments/assets/3a7d483b-e8dc-4482-b6f8-c99788f3507d)

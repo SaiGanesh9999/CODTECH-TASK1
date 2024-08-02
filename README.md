@@ -1,6 +1,6 @@
-Name:- DEVARASETTI SAI GANESH \n
-Comapny:- CODTECH IT SOLUTIONS \n
-ID:- CT08DS6352 \n
-Domain:- PYTHON PROGRAMMING \n
-Duration:- AUGUST 1st, 2024 to SEPTEMBER 1st, 2024 \n
-Mentor:-  Muzammil Ahmed
+*Name*:- DEVARASETTI SAI GANESH 
+*Comapny*:- CODTECH IT SOLUTIONS 
+*ID*:- CT08DS6352 
+*Domain*:- PYTHON PROGRAMMING 
+*Duration*:- AUGUST 1st, 2024 to SEPTEMBER 1st, 2024 
+*Mentor*:-  Muzammil Ahmed

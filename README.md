@@ -39,9 +39,48 @@ Ensuring robust input validation is crucial for creating a reliable program. Han
 **Modular Code Design:**
 Breaking down the program into smaller functions (addition, subtraction, etc.) enhances readability, maintainability, and reusability of the code.
 ## Error Handling:
-Implementing error handling for division by zero and invalid inputs improves the user experience by providing clear feedback and preventing crashes.
+Implementing error handling for division by zero and invalid inputs improves the user experience by providing clear feedback and preventing crashes**.**C
 ## User Interaction:
 Providing a clear and simple user interface via the command line ensures the program is user-friendly, even for those with minimal technical skills.
+**Code:-**
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
+
+def calculator():
+    print("Basic Calculator")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print("Select operation:")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    choice = input("Enter choice (1/2/3/4): ")
+    if choice == '1':
+        print(f"The result is: {add(num1, num2)}")
+    elif choice == '2':
+        print(f"The result is: {subtract(num1, num2)}")
+    elif choice == '3':
+        print(f"The result is: {multiply(num1, num2)}")
+    elif choice == '4':
+        print(f"The result is: {divide(num1, num2)}")
+    else:
+        print("Invalid input. Please enter a choice from 1 to 4.")
+
+if __name__ == "__main__":
+    calculator()
+
 ## Summary
 This basic calculator project serves as an excellent introduction to fundamental programming concepts in Python. By working on this project, one can gain hands-on experience with functions, user input handling, error management, and control structures, laying a solid foundation for more complex programming tasks.
 
